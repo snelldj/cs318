@@ -1,0 +1,23 @@
+body {
+    background-image: url(starfield.jpg);
+    color: aliceblue;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-image: url(fullmoon.png);
+    font-size: 24pt;
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
