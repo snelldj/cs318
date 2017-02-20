@@ -1,0 +1,28 @@
+body {
+    background-color: azure;
+    box-sizing: border-box;
+}
+
+.blurb {
+    width: 90%;
+    box-shadow: 10px 10px 5px #888888;
+    border-width: 1px;
+    border-style: solid;
+    min-height: 202px;
+    min-width: 400px;
+    background-size: 200px;
+    
+}
+
+.right {
+    background-color: aqua;
+    margin-left: auto;
+    font-family: 'Sansita', sans-serif;
+    background-image: url(roosevelt.jpg);
+}
+
+.left {
+    background-color: aquamarine;
+    font-family: 'Caveat Brush', cursive;
+    background-image: url(rabbit.gif);
+}
