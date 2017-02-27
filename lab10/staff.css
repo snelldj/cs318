@@ -1,0 +1,46 @@
+body {
+}
+
+.photo {
+    height: 200px;
+    width:200px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 20px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px #888888;
+    position: relative;
+}
+
+.photo:hover{
+    box-shadow: 10px 10px 10px #333333;
+    left: 5px;
+    top: 5px;
+}
+
+#chris {
+    background-image: url("https://cdn.uwec.edu/athena/images/5271/20160503_Chris_Johnson-three-four-portrait.jpg");
+}
+
+#ryan {
+    background-image: url("https://cdn.uwec.edu/athena/images/5277/Ryan_Hardt_2016-three-four-portrait.jpg");
+}
+
+#heather {
+    background-image: url("https://cdn.uwec.edu/athena/images/5274/Heather_Amthauer_2016-three-four-portrait.jpg");
+}
+
+#tan {
+    background-image: url("https://cdn.uwec.edu/athena/images/5275/Jack_Tan_2016-three-four-portrait.jpg");
+}
+
+.name {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    font-size: 16pt;
+    font-family: sans-serif;
+    color: coral;
+    text-shadow: 4px 4px 10px #444444;
+}
+
