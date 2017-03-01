@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 5px #888888;
+    font-size: 16pt;
+}
+
+
+header {
+    background-color: orange;
+    height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    text-indent: -32px;
+}
+
+nav {
+    background-color: orangered;
+    float: left;
+    width: 160px;
+    height: 1200px;
+}
+
+main {
+    background-color: red;
+    height: 1200px;
+    margin-left: inset;
+    padding: 40px;
+}
+
+footer {
+    background-color: gold;
+    height: 40px;
+}
+
+.image {
+    background-image: url(pizza.png);
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 30px;
+    top: 10px;
+}
+
+.order {
+    color: aliceblue;
+    font-size: 24pt;
+    text-shadow: 0px 2px 2px #888888;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+}
+
+.crust {
+    width: 120px;
+    height: auto;
+    box-shadow: 
+}
+#pep {
+    float:right;
+    line-height: 0.75;
+    padding-left: 5px;
+
+}
+#meat {
+    float: left;
+    line-height: 0.75;
+    padding-right: 5px;
+}
+
+#veg {
+    float: right;
+    line-height: 0.75;
+    padding-left: 5px;
+}
+
+#mainimg {
+    height: 140px;
+    position: relative;
+    left: 140px;
+}
+
+main iframe {
+    position: relative;
+    top: -1050px;
+}
