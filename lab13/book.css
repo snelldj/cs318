@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+nav {
+	background-color: azure;
+    float: left;
+    height: 22250px;
+    width: 15em;
+    font-family: sans-serif;
+}
+
+main {
+	background-color: floralwhite;
+    position: absolute;
+    left: 15em;
+    right: 0em;
+    font-family: serif;
+}
+
+footer {
+	background-color: aliceblue;
+}
+
+@media only screen and (max-width: 20em) {
+    main {
+        position: static;
+        clear: both;
+    }
+    
+    nav {
+
+        height: 6em;
+        font-size: 18pt;
+        width: 10em;
+    }
+    
+    nav li {
+        display: inline;
+    }
+    
+    .chap {
+        display: none;
+    }
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.quote{
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    font-size: 24px;
+    background-color: bisque;
+    font-family:monospace;
+    
+}
+.poem{
+    white-space: pre-wrap;
+}
+
+

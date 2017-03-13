@@ -69,7 +69,6 @@ footer {
 .crust {
     width: 120px;
     height: auto;
-    box-shadow: 
 }
 #pep {
     float:right;
@@ -98,4 +97,5 @@ footer {
 main iframe {
     position: relative;
     top: -1050px;
+    width: 300px;
 }
