@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;    
+}
+
+td {
+    border: 1px solid grey;
+    width: 8em;
+    height: 8em;
+    text-align: center;
+    font-family: cursive;
+    background-color: black;
+ 
+}
+
+.righttwist {
+    background-color: red;
+}
+
+.l {
+    background-color: orange;
+}
+
+.r {
+    background-color: blue;
+}
+
+.line {
+    background-color: cyan;
+}
+
+.lefttwist {
+    background-color: greenyellow;
+}
+
+.box {
+    background-color: yellow;
+}
+

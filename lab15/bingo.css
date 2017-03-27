@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;    
+}
+
+td {
+    border: 1px solid black;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    font-size: 28pt;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+#free {
+    background-color: blue;
+    color: white;
+}
+
+#free:hover {
+    background-color: aquamarine;
+    color: red;
+}
+
+td:hover {
+    background-color: pink;
+    color: aqua;
+}
