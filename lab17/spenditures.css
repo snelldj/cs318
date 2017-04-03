@@ -1,0 +1,124 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: maroon;
+    color: white;
+    height: 45px;
+    border-bottom: 1px solid white;
+}
+
+header h1 {
+    position: relative;
+    top: 4px;
+    left: 8px;
+}
+
+nav {
+    background-color: darkblue;
+    height: 28px;
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    color: deeppink;
+    
+}
+
+
+
+.label a {
+    color: white;
+    font-size: 13pt;
+    top: px;
+    left: 4px;
+    text-decoration: none;
+    
+}
+
+.label {
+    position: relative;
+    display: inline-block;
+    border-right: 1px solid white;
+    height: 28px;
+    width: 72px;
+    
+}
+
+.label:hover {
+    background-color: #404040;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.head {
+    font-weight: bold;
+}
+
+table {
+    position: relative;
+    top: 2000px;
+    width: 280px;
+}
+
+td {
+    width: 3em;
+    height: 1em;
+    text-align: center;
+    font-size: 12pt;
+}
+
+td:nth-of-type(1) {
+    text-align: left;
+}
+
+td:nth-of-type(2) {
+    text-align: right;
+}
+
+table tr:nth-of-type(even) {
+    background-color: lightgray;
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #404040;
+    top: 29px;
+    box-shadow: 0px 3px 5px rgb(100, 100, 100);
+}
+
+.label:hover .menu {
+    display: block;
+}
+
+.item:hover {
+    background-color: darkgray;
+}
+
+.menu ul {
+    padding: 0;
+    list-style: none;
+    width: 55px;
+    
+}
+
+.item {
+    border-bottom: 1px solid white;
+    height: 30px;
+}
+
+.drop li:last-child {
+    border: 0px solid white;
+}
