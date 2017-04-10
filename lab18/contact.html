@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tabview</title>
+    <link type="text/css" rel="stylesheet" href="contact.css">
+    <link type="image/png" rel="icon" href="pizza.png">
+</head>
+<body>        
+    <div id="main">
+        <form action="https://formspree.io/your@email.com"
+      method="POST" name="form" class="form">
+        <table>
+            <tr>
+                <td align="right">Name:</td>
+                <td><input type="text" name="name" class="userinput"/></td>
+            </tr> 
+            <tr>
+                <td align="right">Email:</td>
+                <td><input type="email" name="_replyto" class="userinput"/></td>
+            </tr>       
+            <tr>
+                <td align="right">Subject:</td>
+                <td align="left"><input type="text" name="subject" class="userinput"/></td>
+            </tr>            
+            <tr>
+                <td colspan="2" ><textarea class="userinput" id="content" rows="8" placeholder="What's on your mind?"></textarea></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td align="right"><input rows="4"class="button" type="submit" value="Send" /></td>
+            </tr>
+        </table>
+        </form>
+    </div>
+</body>
+</html>

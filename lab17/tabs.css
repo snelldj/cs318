@@ -1,0 +1,60 @@
+.tabbutton {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+.tabbutton:focus {
+    background-color: mediumaquamarine;
+    
+}
+
+#tabview0 {
+    background-color: aquamarine;
+    display: block;
+}
+
+.tabview {
+    
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    height: 40px;
+}
+
+#tabparent {
+    position: relative;
+    display: inline-block;
+}
+
+#tabview1 {
+    display: none;
+    background-color: mediumaquamarine;
+}
+
+#tabview2 {
+    display: none;
+    background-color: mediumaquamarine;
+}
+
+#tabview3 {
+    display: none;
+    background-color: mediumaquamarine;
+}
+
+#tabbutton3:focus ~ #tabview3 {
+  display: block;
+}
+
+#tabbutton2:focus ~ #tabview2 {
+  display: block;
+}
+
+#tabbutton1:focus ~ #tabview1 {
+  display: block;
+}
+

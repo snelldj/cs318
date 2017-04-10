@@ -187,13 +187,18 @@ main {
     
     nav {
         display: none;
+    }
+    
+    #newmenu {
+        display: none;
         position: absolute;
         top: 45px;
         right: 0px;
+        z-index: 1;
         
     }
     
-    #icon:hover nav {
+    #icon:hover #newmenu {
         display: block;
     }
 
