@@ -1,0 +1,51 @@
+
+#main {
+    background-color: lightblue;
+    border-radius: 10px;
+    height: 420px;
+    width: 600px;
+    font-size: 14pt;
+    font-family: arial;
+    padding: 0;
+}
+
+table {
+    border-spacing: 10px;
+    position: absolute;
+    left: 40px;
+    top: 130px;
+}
+
+input {
+    font-size: 10pt;
+}
+
+.userinput {
+    width: 340px;
+}
+
+.button {
+    width: 50px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+h2 {
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 40px;
+}
+
+select {
+    
+}
+
+#check {
+    position: absolute;
+    left: 32px;
+    top: 196px;
+}
+
+.cat {
+    vertical-align: top;
+}

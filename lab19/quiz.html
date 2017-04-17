@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chillax Order Form</title>
+    <link type="text/css" rel="stylesheet" href="icecream.css">
+    <link type="image/png" rel="icon" href="pizza.png">
+</head>
+<body>        
+    <form action="https://formspree.io/dsnell95@email.com" method="POST" name="form" class="form">
+        <ol>
+            <li>What is your favorite color?</li>
+            <select multiple type="text" class="userinput" size="4">
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Yellow</option>
+                <option>Green</option>
+            </select>
+            <br>
+            <li>What is your favorite food?</li>
+            <select type="text" class="userinput">
+                <option>(Select an option)</option>
+                <option>Ice Cream</option>
+                <option>Pizza</option>
+                <option>Eggs</option>
+            </select>
+                        <br>
+
+            <li>Do you like cheese?</li>
+            <p>True</p><input id="check1" class="userinput" type="checkbox">
+            <p>False</p><input id="check2" class="userinput" type="checkbox">
+                        <br>
+
+            <li>What is your favorite hobby?</li>
+            <input type="text" name="name" class="userinput"/> 
+            <br>
+
+            <li>Tell me about pizza:</li>
+            <textarea class="userinput" id="content" rows="8" placeholder="Tell em about it here"></textarea>
+            <br>
+
+        </ol>
+<input class="button" type="submit" value="Submit" />
+
+
+    </form>
+</body>
+</html>

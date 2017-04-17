@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chillax Order Form</title>
+    <link type="text/css" rel="stylesheet" href="icecream.css">
+    <link type="image/png" rel="icon" href="pizza.png">
+</head>
+<body>        
+    <div id="main">
+        <form action="https://formspree.io/dsnell95@email.com"
+      method="POST" name="form" class="form">
+        <h2>Chillax Order Form</h1>
+        <table>
+            <tr>
+                <td class="cat" align="right">Who are you?</td>
+                <td><input type="text" name="name" class="userinput"/></td>
+            </tr> 
+            <tr>
+                <td class="cat" align="right">What flavor?</td>
+                <td>
+                    <select multiple type="text" name="_replyto" class="userinput" size="4">
+                        <option>Chocolate</option>
+                        <option>Strawberry</option>
+                        <option>Vanilla</option>
+                        <option>Mint Chocolate Chip</option>
+                    </select>
+                </td>
+            </tr>       
+            <tr>
+                <td class="cat" align="right">In what?</td>
+                <td align="left">
+                    <select multiple type="text" name="_replyto" class="userinput" size="3">
+                        <option>Waffle</option>
+                        <option>Sugar</option>
+                        <option>Dish</option>
+                    </select>
+                </td>
+            </tr>            
+            <tr>
+                <td class="cat" align="right">Sprinkles?</td>
+                <td><input id="check" class="userinput" type="checkbox"></td>
+
+            </tr>
+            <tr>
+                <td class="cat" align="right">How messy are you?</td>
+                <td><input id="slider" class="userinput" type="range"></td>
+
+            </tr>
+
+            <tr>
+                <td></td>
+                <td align="left"><input class="button" type="submit" value="Order" /></td>
+            </tr>
+        </table>
+        </form>
+    </div>
+</body>
+</html>

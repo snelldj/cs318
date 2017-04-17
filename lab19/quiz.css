@@ -1,0 +1,46 @@
+
+#main {
+    border-radius: 10px;
+    height: 420px;
+    width: 600px;
+    font-size: 14pt;
+    font-family: arial;
+    padding: 0;
+}
+
+input {
+    font-size: 10pt;
+}
+
+.userinput {
+    width: 340px;
+}
+
+.button {
+    width: 50px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+
+#check1 {
+    position: absolute;
+    left: 10px;
+    top: 196px;
+}
+
+#check2 {
+    position: absolute;
+    left: 10px;
+    top: 196px;
+}
+
+.cat {
+    vertical-align: top;
+}
+
+li {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+

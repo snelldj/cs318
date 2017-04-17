@@ -5,7 +5,7 @@ body {
 #container {
     background-color: pink;
     position: relative;
-    height: 800px;
+    height: 600px;
 }
 
 .page {
@@ -13,21 +13,19 @@ body {
     height: 100%;
     background-size: 100%;  /*???*/
     position: absolute;
+    display: none;
 }
 
 #page1 {
-    background-image: url("image1.jpg");
-    display: none;
+    background-image: url(image1.jpg);
 }
 
 #page2 {
-    background-image: url("image2.jpg");
-    display: none;
+    background-image: url(image2.jpg);
 }
 
 #page3 {
-    background-image: url("image3.jpg");
-    display: none;
+    background-image: url(image3.jpg);
 }
 
 input[type="radio"]:checked + .page {
@@ -35,10 +33,12 @@ input[type="radio"]:checked + .page {
 }
 
 #controls {
-    position: relative;
-    top: 730px;
+    position: absolute;
+    top: 530px;
     left: 50%;
     transform: translate(-50%, 0);
+    user-select: none;
+    
     
 }
 
@@ -49,15 +49,15 @@ label {
 }
 
 #show1:checked ~ #controls label:nth-child(1) {
-    color: red;
+    color: lime;
 }
 
 #show2:checked ~ #controls label:nth-child(2) {
-    color: red;
+    color: orangered;
 }
 
 #show3:checked ~ #controls label:nth-child(3) {
-    color: red;
+    color: aqua;
 }
 
 input {
