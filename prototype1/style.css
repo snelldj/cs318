@@ -230,8 +230,10 @@ iframe {
         top: 4px;
     }
     #banner3 {
-        left: 34%;
+        width: 35%;
+        left: 50%;
         position: fixed;
+        margin-left: -17.5%;
 
     }
 
@@ -409,7 +411,9 @@ iframe {
     }
     
     #banner3 {
-        left: 24%;
+        left: 50%;
+        width: 70%;
+        margin-left: -35%;
         position: relative;
     }
 
