@@ -364,16 +364,9 @@ iframe {
         display: block;
     }
 
-/*                <div class="menu">
-                    <ul class="drop">
-                        <li class="item"><a href="spenditures.html">Varsity</a></li>
-                        <li class="item"><a href="spenditures.html">Reserves</a></li>
-                    </ul>
-                </div>
-*/
 }
 
-@media (max-width: 749px) {
+@media (max-width: 749px) and (min-width: 501px) {
     
     .extra {
         display: none;
@@ -436,7 +429,7 @@ iframe {
         list-style: none;
         padding: 0;
         background-color: navy;
-        width: 200px;
+        width: 120px;
     }
     
     .label:last-child {
@@ -464,8 +457,96 @@ iframe {
         background-color: navy;
         cursor: pointer;
     }
+}
+@media (max-width: 500px) {
     
+    .extra {
+        display: none;
+    }
     
+    table {
+        left: 80px;
+    }
     
+
     
+    #alum {
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    main {
+        height: 900px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     
+    #banner1 {
+        display: none;
+    }
+    
+    #banner2 {
+        display: none;
+    }
+    
+    #banner3 {
+        left: 50%;
+        width: 70%;
+        margin-left: -35%;
+        position: relative;
+    }
+
+    .imgs {
+        width: 80%;
+        height: auto;
+        margin: 20px;
+    }
+    
+    #icon {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        font-size: 22pt;
+    }
+    
+    .label {
+        position: relative;
+        border-top: 1px solid white;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+        height: 28px;
+        width: 72px;
+        list-style: none;
+        padding: 0;
+        background-color: navy;
+        width: 120px;
+    }
+    
+    .label:last-child {
+        border-bottom: 1px solid white;
+    }
+    
+    nav {
+        display: none;
+    }
+    
+    #newmenu {
+        display: none;
+        position: absolute;
+        top: 45px;
+        right: 0px;
+        z-index: 1;
+        
+    }
+    
+    #icon:hover #newmenu {
+        display: block;
+    }
+
+    #icon:hover {
+        background-color: navy;
+        cursor: pointer;
+    }
 }
